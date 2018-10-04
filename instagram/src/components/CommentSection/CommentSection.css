@@ -1,0 +1,38 @@
+.comment-container {
+  margin-top: 10px;
+}
+
+.comment-container hr {
+  margin: 5px 10px 0 0;
+}
+
+.comment-icons i {
+  margin-left: 10px;
+}
+
+.likes {
+  margin-left: 10px;
+  font-size: .6rem;
+  font-weight: bold;
+}
+
+.comments p {
+  margin: 0;
+}
+
+.comments {
+  margin-top: 1%;
+  margin-left: 10px;
+  font-size: .6rem;
+  font-weight: bold;
+}
+
+.comment-text {
+  font-weight: normal;
+}
+
+.time {
+  font-size: .45rem;
+  letter-spacing: .5px;
+  color: gray;
+}

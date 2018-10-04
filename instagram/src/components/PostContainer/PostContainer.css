@@ -1,0 +1,27 @@
+.post-container {
+  border: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.post-container img {
+  width: 100%;
+}
+
+.img-logo-wrapper {
+  display: flex;
+  font-size: .5rem;
+  font-weight: bold;
+  align-items: center;
+  margin: 10px;
+}
+
+.img-logo-wrapper img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 1%;
+}
+
+.img-logo-wrapper p {
+  margin: 0;
+}
