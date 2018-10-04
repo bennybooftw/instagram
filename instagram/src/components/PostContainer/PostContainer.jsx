@@ -12,7 +12,7 @@ class PostContainer extends Component {
           <p>{this.props.data.username}</p>
         </div>
         <img src={this.props.data.imageUrl} />
-        <CommentSection data={this.props.data.comments} likes={this.props.data.likes}/>
+        <CommentSection comments={this.props.data.comments} likes={this.props.data.likes}/>
       </div>
     )
   }

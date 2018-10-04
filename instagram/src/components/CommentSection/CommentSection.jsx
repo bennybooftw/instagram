@@ -13,7 +13,7 @@ class CommentSection extends Component {
           {this.props.likes + ' likes'}
         </div>
         <div className="comments">
-          {this.props.data.map(comment => {
+          {this.props.comments.map(comment => {
             return(
               <p>{comment.username} <span className='comment-text'>{comment.text}</span></p>
             )
