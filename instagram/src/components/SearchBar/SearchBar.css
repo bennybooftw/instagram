@@ -8,6 +8,10 @@
   border-bottom: 1px solid lightgray;
 }
 
+.search-container i {
+  cursor: pointer;
+}
+
 .search-logo {
   display: flex;
   justify-content: space-evenly;

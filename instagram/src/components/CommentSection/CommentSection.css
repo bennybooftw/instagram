@@ -3,11 +3,12 @@
 }
 
 .comment-container hr {
-  margin: 5px 10px 0 0;
+  margin: 10px 10px 0 0;
 }
 
 .comment-icons i {
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .likes {
@@ -35,4 +36,19 @@
   font-size: .45rem;
   letter-spacing: .5px;
   color: gray;
+}
+
+.add-comment {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-comment input {
+  border: none;
+}
+
+.add-comment i {
+  cursor: pointer;
 }
