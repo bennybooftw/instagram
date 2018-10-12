@@ -1,0 +1,12 @@
+.login {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login label {
+    margin-right: 5px;
+}
+
