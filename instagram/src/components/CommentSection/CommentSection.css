@@ -30,28 +30,21 @@
 
 .comment-text {
   font-weight: normal;
+  margin-left: 10px;
 }
 
 .time {
   font-size: .45rem;
   letter-spacing: .5px;
   color: gray;
-<<<<<<< HEAD
-=======
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.user {
+  margin-left: 10px;
 }
 
 .add-comment {
-  margin: 20px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.add-comment input {
-  border: none;
-}
-
-.add-comment i {
-  cursor: pointer;
->>>>>>> df12b659a68204e537d25439c61c60568faf2bea
+  padding-left: 10px;
 }

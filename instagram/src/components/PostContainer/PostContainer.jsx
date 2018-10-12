@@ -25,7 +25,6 @@ import Post from "./Post";
   };
 
   render() {
-<<<<<<< HEAD
     return (
       <div className="card">
         <Post
@@ -37,16 +36,6 @@ import Post from "./Post";
           commentClickHandler={this.commentClickHandler}
         />
         <CommentSection comments={this.props.comments} time={this.props.time} />
-=======
-    return(
-      <div className='post-container'>
-        <div className="img-logo-wrapper">
-          <img src={this.props.data.thumbnailUrl} />
-          <p>{this.props.data.username}</p>
-        </div>
-        <img src={this.props.data.imageUrl} />
-        <CommentSection comments={this.props.data.comments} likes={this.props.data.likes}/>
->>>>>>> df12b659a68204e537d25439c61c60568faf2bea
       </div>
     );
   }

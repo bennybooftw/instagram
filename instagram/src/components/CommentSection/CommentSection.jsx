@@ -45,7 +45,6 @@ class CommentSection extends Component {
 
   render() {
     return(
-<<<<<<< HEAD
       <>
         {this.state.comments.map(comment => {
           return(
@@ -67,30 +66,6 @@ class CommentSection extends Component {
           onKeyDown={this.submitHandler}
         />
       </>
-=======
-      <div className='comment-container'>
-        <div className="comment-icons">
-          <i class="far fa-heart"></i>
-          <i class="far fa-comment"></i>
-        </div>
-        <div className="likes">
-          {this.props.likes + ' likes'}
-        </div>
-        <div className="comments">
-          {this.props.comments.map(comment => {
-            return(
-              <p>{comment.username} <span className='comment-text'>{comment.text}</span></p>
-            )
-          })}
-          <span className='time'>2 Hours Ago</span>
-          <hr/>
-        </div>
-        <div className="add-comment">
-          <input type="text" placeholder='Add a comment...'/>
-          <i class="fas fa-ellipsis-h"></i>
-        </div>
-      </div>
->>>>>>> df12b659a68204e537d25439c61c60568faf2bea
     )
   }
 }
